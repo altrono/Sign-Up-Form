@@ -37,6 +37,25 @@ html {
     left: 0;
 }
 
+.banner {
+    position: absolute;
+    top: 25%;
+    left: 5rem;
+    width: 30rem;
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.banner p {
+    font-size: 2rem;
+}
+
 .green-bg button {
     position: absolute;
     top: 60%;
