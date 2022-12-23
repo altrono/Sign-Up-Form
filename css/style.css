@@ -86,3 +86,71 @@ html {
     align-items: center;
     padding: 10rem 0;
 }
+
+.signup-form h1 {
+    font-size: 4rem;
+    color: #3aaf9f;
+}
+
+
+
+.social-media {
+    display: flex;
+}
+
+.social-media i {
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid #777;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #555;
+}
+
+
+
+.signup-form p {
+    font-size: 1.8rem;
+    color: #555;  
+    margin-bottom: 2rem;
+}
+
+.signup-form input {
+    width: 28rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.input-group {
+    position: relative;
+}
+
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.signup-form button {
+    width: 16rem;
+    height: 5rem;
+    border: none;
+    background-color: #3aaf9f;
+    color: #fff;
+    margin-top: 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
