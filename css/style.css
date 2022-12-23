@@ -71,3 +71,18 @@ html {
     letter-spacing: 0.1rem;
     cursor: pointer;
 }
+
+
+
+.signup-form {
+    width: 60rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+}
